@@ -36,7 +36,7 @@ h1 {
 }
 
 #page-body {
-    background-image: url(background.jpg);
+    background-image: url(yeahgym.jpg);
     font-family: Arial, Helvetica, sans-serif;
     display: flexbox;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,8 +55,8 @@ h1 {
 }
 
 .img1 {
-    max-width: 40%;
-    height: auto;
+    width: 532px;
+    height: 525px;
     margin: 20px;
     padding: 5px;
     display: inline-block;
@@ -66,8 +66,8 @@ h1 {
 }
 
 .img2 {
-    max-width: 40%;
-    height: auto;
+    width: 532px;
+    height: 525px;
     margin: 20px;
     padding: 5px;
     display: inline-block;
