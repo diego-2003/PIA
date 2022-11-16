@@ -1,0 +1,130 @@
+.head {
+    height: 10vh;
+    grid-area: enc;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+#sect1 {
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+#sect2 {
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+#sect3 {
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+#page-body {
+    background-image: url(background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+#text {
+    text-align: center;
+    font-size: 20px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+.img1 {
+    max-width: 40%;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+    border: 6px;
+    background-color: #1F2B83;
+}
+
+.img2 {
+    max-width: 40%;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+    border: 6px;
+    background-color: #1F2B83;
+}
+
+#Pie {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+}
+
+
+
+
+
+#main-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+#nav-flex .contenedor {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex-flow: row wrap;
+
+    justify-content: space-evenly;
+}
+
+.head {
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#art1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.asides {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
+}
